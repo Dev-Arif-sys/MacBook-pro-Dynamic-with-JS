@@ -17,6 +17,7 @@
     <main>
         <section class="container mt-5">
             <div class="row">
+
                 <!-- macbook img -->
                 <div class="col-md">
                     <img class="img-fluid" src="images/mac.png" alt="" width="500">
@@ -36,12 +37,15 @@
 
                     <!-- feature section start -->
                     <div class="mt-5">
+                        <!-- memory -->
                         <h5>Memory</h5>
                         <button id="memory-8gb" class="btn btn-outline-secondary">8gb Unified Memory</button>
 
                         <button id="memory-16gb" class="btn btn-outline-secondary">16gb Unified Memory</button>
                     </div>
 
+
+                        <!-- storage -->
                     <div class="mt-5">
                         <h5>Storage</h5>
                         <button id="ssd-256gb" class="btn btn-outline-secondary">256GB SSD Storage</button>
@@ -52,11 +56,15 @@
                     </div>
 
 
+
+                     <!-- delivery -->
                     <div class="mt-5">
                         <h5>Choose your delivery option</h5>
-                        <button id="charge-free" class="btn btn-outline-secondary">Friday, Aug 25 Free Prime Delivery </button>
+                        <button id="charge-free" class="btn btn-outline-secondary">Friday, Aug 25 Free Prime Delivery
+                        </button>
 
-                        <button id="charge-20" class="btn btn-outline-secondary">Friday, Aug 21 Delivery Charge $20</button>
+                        <button id="charge-20" class="btn btn-outline-secondary">Friday, Aug 21 Delivery Charge
+                            $20</button>
                     </div>
 
 
@@ -64,40 +72,62 @@
 
 
                     <div class="mt-5 w-50">
-                      <div class="row">
-                          <div class="col-md-8">
-                              <h5>Best Price</h5>
-                              <h5>Extra Memory Cost</h5>
-                              <h5>Extra Storage Cost</h5>
-                              <h5>Delivery Charge</h5>
-                          </div>
-                         
-                          <div class="col-md-4">
-                              <h5>$<span id="best-price">1299</span></h5>
-                              <h5>$<span id="memory-cost" >0</span></h5>
-                              <h5>$<span id="storage-cost">0</span></h5>
-                              <h5>$<span id="delivery-charge">0</span></h5>
-                          </div>
-                      </div>
-                      <hr style=" height: 3px;background-color: rgb(3, 0, 0); border: none;">
-                      <div class="row">
-                          <div class="col-md-8">
-                              <h5>Total Price</h5>
-                          </div>
-                          <div class="col-md-4">
-                            <h5>$<span id="total-price">1299</span></h5>
-                                              </div>
-                      </div>
 
-                      <div class="row mt-5">
-                         <h6>Add Promo code</h6>
-                         <div class="col-md-10">
-                             <input id="coupon-input" type="text" class="form-control">
-                         </div>
-                         <div class="col-md-2">
-                             <button id="coupon-btn" class="btn btn-secondary">Apply</button>
+
+
+                        <div class="d-flex justify-content-between">
+                            <h5>Best Price</h5>
+                            <h5>$<span id="best-price">1299</span></h5>
                         </div>
-                      </div>
+
+                        <hr>
+
+                        <div class="d-flex justify-content-between">
+                            <h5>Extra Memory Cost</h5>
+                            <h5>$<span id="memory-cost">0</span></h5>
+                        </div>
+
+                        <hr>
+
+                        <div class="d-flex justify-content-between">
+                            <h5>Extra Storage Cost</h5>
+                            <h5>$<span id="storage-cost">0</span></h5>
+                        </div>
+
+                        <hr>
+
+                        <div class="d-flex justify-content-between">
+                            <h5>Delivery Charge</h5>
+                            <h5>$<span id="delivery-charge">0</span></h5>
+                        </div>
+
+
+
+                        <hr style=" height: 3px;background-color: rgb(3, 0, 0); border: none;">
+
+
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h5>Total Price</h5>
+                            </div>
+                            <div class="col-md-4">
+                                <h5>$<span id="total-price">1299</span></h5>
+                            </div>
+                        </div>
+
+
+                        <!-- promo code section -->
+                        <div class="row mt-5">
+                            <h6>Add Promo code</h6>
+                            
+                            <div class="col-md-10">
+                                <input id="coupon-input" type="text" class="form-control">
+                            </div>
+
+                            <div class="col-md-2">
+                                <button id="coupon-btn" class="btn btn-secondary">Apply</button>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
